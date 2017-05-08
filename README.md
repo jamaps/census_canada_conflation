@@ -12,4 +12,4 @@ Corrected data are included in the **conflated_boundaries** as well as being upl
 
 The image below is sample of the output of corrected census tracts for 1996. The blue lines are the original boundaries while the red are the conflated boundaries, which align much closer to the underlying 2016 census blocks.
 
-![](example.png =420x)
+![](example.png)
