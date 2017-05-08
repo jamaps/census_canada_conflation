@@ -2,7 +2,7 @@
 
 The geographic boundary files for the 1991 and 1996 Canadian censuses contain substantial spatial mismatch error.
 
-Our procedure uses a spatially weighted average (i.e. similar to a *moving window* approach) to translate each coordinate in the spatial files of 1991 and 1996 censuses via referencing a much smaller set of accurately translated control points. Currently this process is only set up to work in urban areas (i.e. CMAs)
+The scripts in this repo attempt to correct this error. The procedure uses a spatially weighted average (i.e. similar to a *moving window* approach) to translate each coordinate in the spatial files of 1991 and 1996 censuses via referencing a much smaller set of accurately translated control points. Currently this process is only set up to work in urban areas (i.e. CMAs)
 
 **translate_points.py** converts coordinates in a point file, like the block-face points, using the points in **control_points.csv** as reference.
 
